@@ -1,8 +1,9 @@
+import Header from "../organisms/Header/Header"
 
 const DefaultLayout = ({ children }) => {
   return (
     <>
-      {/* <Header/> */}
+      <Header />
         { children }  
       {/* <Footer/> */}
     </>
